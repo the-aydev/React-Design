@@ -70,7 +70,7 @@ const Notes = () => {
       <h2>Notes</h2>
 
       <ul>
-        {notes.map((n: Note) => {
+        {notes.map((n: Note) => (
           <li key={n.id}>
             {n.note} {' '}
             <button
@@ -91,7 +91,7 @@ const Notes = () => {
               Update
             </button>
           </li>
-        })}
+        ))}
       </ul>
 
       <form onSubmit={handleSubmit}>
