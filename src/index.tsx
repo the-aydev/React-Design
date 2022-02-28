@@ -6,7 +6,10 @@ import './index.css';
 // import App from './Components/Todo';
 // import App from './Components/Reducer';
 // import App from './Components/Geo';
-import App from './Components/Hoc';
+// import App from './Components/Hoc';
+// import App from './Components/Context';
+// import App from './Components/Pokemon';
+// import App from './Components/Forms';
 
 
 
